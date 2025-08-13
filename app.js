@@ -10,9 +10,9 @@ app.set("view engine", "ejs");
 // MySQL connection
 const db = mysql.createConnection({
     host: "localhost",
-    user: "root",
-    password: "Tsvhny5mud#", // change this
-    database: "simon_says"
+    user: "username",
+    password: "my_password", // change this
+    database: "database_name"
 });
 
 db.connect(err => {
@@ -42,3 +42,4 @@ app.post("/api/score", (req, res) => {
 });
 
 app.listen(3000, () => console.log("Server running at http://localhost:3000"));
+
