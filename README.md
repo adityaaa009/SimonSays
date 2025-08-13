@@ -1,7 +1,7 @@
 🎮 Full Stack Simon Says Game
 A fun, browser-based Simon Says memory game built with HTML, CSS, JavaScript, Node.js, Express, MySQL, and EJS, now upgraded to store and display high scores with a dynamic leaderboard.
 
-
+_________________________________________________________________________
 
 ✨ Features
 🎯 Interactive Gameplay — The classic Simon Says color sequence game.
@@ -14,7 +14,7 @@ A fun, browser-based Simon Says memory game built with HTML, CSS, JavaScript, No
 
 📱 Responsive Design — Works on desktop and mobile.
 
-
+_________________________________________________________________________
 
 🛠 Tech Stack
 Frontend:
@@ -37,7 +37,7 @@ Database:
 
 MySQL
 
-
+_________________________________________________________________________
 
 🎯 How to Play
 Press any key to start.
