@@ -1,6 +1,51 @@
-# SimonSays Game
-- The game starts when the user presses any key.
-- Each level, a new random color is added to the sequence (gameSeq), and the user must repeat the sequence by clicking the colored buttons.
-- Each user click is checked against the game sequence. If the user makes a mistake, the game ends and resets.
-- If the user completes the sequence correctly, the game advances to the next level with a longer sequence.
-- Visual feedback is given by flashing buttons for both the game and user actions.
+🎮 Full Stack Simon Says Game
+A fun, browser-based Simon Says memory game built with HTML, CSS, JavaScript, Node.js, Express, MySQL, and EJS, now upgraded to store and display high scores with a dynamic leaderboard.
+
+
+
+✨ Features
+🎯 Interactive Gameplay — The classic Simon Says color sequence game.
+
+🏆 Leaderboard — Stores top scores in a MySQL database.
+
+🌐 Full Stack — Uses RESTful API to send game results to backend.
+
+📦 Deployed on Render — Connected to a cloud-hosted MySQL database (PlanetScale).
+
+📱 Responsive Design — Works on desktop and mobile.
+
+
+
+🛠 Tech Stack
+Frontend:
+
+HTML5
+
+CSS3
+
+JavaScript (Vanilla)
+
+Backend:
+
+Node.js
+
+Express.js
+
+EJS Templating
+
+Database:
+
+MySQL
+
+
+
+🎯 How to Play
+Press any key to start.
+
+Watch the sequence of flashes carefully.
+
+Repeat the sequence by clicking the buttons in order.
+
+Each round, the sequence gets longer — keep up!
+
+When you make a mistake, your score is saved in the leaderboard.
